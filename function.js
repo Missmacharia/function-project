@@ -1,5 +1,5 @@
 
-  function number (n-1);{
+  function number (n){
     if (n >100) return;
 
   if (n/3 ===0 && n/5===0){
