@@ -2,15 +2,15 @@
   function number (n){
     if (n < 100) return;
 
-  if (n/3 ===0 && n/5===0){
+  if (n%3 ===0 && n%5===0){
 
     console.log('fizzbuzz');
 
-  }else if (n/3===0) {
+  }else if (n%3===0) {
 
 console.log('fizz')
 
-  }else if(n/5===0){
+  }else if(n%5===0){
 
     console.log('Buzz');
 
@@ -19,7 +19,7 @@ console.log('fizz')
   }
     number(n +1)
   }
-number()
+number(100)
     
     
     
